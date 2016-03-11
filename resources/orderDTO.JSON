@@ -1,0 +1,611 @@
+{
+    "additionalData": {
+        "allowPrintInvoice": true,
+        "boxOfficer": true,
+        "channelType": "BOXOFFICE",
+        "deliveryMethod": "TAQ_PICKUP",
+        "entityId": 53,
+        "insuranceId": null,
+        "insuranceName": null,
+        "insurancePolicyNumber": null,
+        "language": "es_ES",
+        "note": null,
+        "pointOfSaleId": 54,
+        "profileAttributes": [],
+        "profileId": null,
+        "suspectFraud": null,
+        "terminalId": 18,
+        "userId": 65
+    },
+    "biMigrated": 0,
+    "channelId": 125,
+    "code": "29722BDJFT9M",
+    "collectives": [],
+    "crmMigrated": null,
+    "customer": {
+        "address": null,
+        "allowCommercialMailing": null,
+        "birthday": null,
+        "city": null,
+        "country": null,
+        "countrySubdivision": null,
+        "email": null,
+        "genderMale": null,
+        "idNumber": null,
+        "idType": null,
+        "insuranceData": null,
+        "language": null,
+        "name": "venta",
+        "notes": null,
+        "phone": null,
+        "receiptEmail": null,
+        "resendReceiptEmail": null,
+        "surname": "anonimo",
+        "ticketEmail": null,
+        "zipCode": null
+    },
+    "date": {
+        "bookingExpires": null,
+        "expires": "2016-01-19T16:49:20.18Z[UTC]",
+        "lastModified": "2016-01-19T16:19:20.18Z[UTC]",
+        "purchased": "2016-01-19T16:18:28.423Z[UTC]"
+    },
+    "groups": [
+        {
+            "groupAttributes": [
+                {
+                    "description": "Nivel educativo",
+                    "id": 66,
+                    "value": "Educación Infantil - P4",
+                    "valueId": 126
+                }
+            ],
+            "id": 444,
+            "name": "testBadia",
+            "numAccompanists": 3,
+            "numAccompanistsVariation": null,
+            "numAssistants": 5,
+            "numAssistantsVariation": null
+        },
+        {
+            "groupAttributes": [
+                {
+                    "description": "Nivel educativo",
+                    "id": 66,
+                    "value": "Nivel educativo",
+                    "valueId": 125
+                }
+            ],
+            "id": 445,
+            "name": "testBadia2",
+            "numAccompanists": 4,
+            "numAccompanistsVariation": null,
+            "numAssistants": 9,
+            "numAssistantsVariation": null
+        }
+    ],
+    "invoiceData": {
+        "address": null,
+        "city": null,
+        "id": null,
+        "invoiceDate": null,
+        "invoiceNumber": null,
+        "langCode": null,
+        "name": null,
+        "nif": null,
+        "notes": null,
+        "organizerCode": null,
+        "zipCode": null
+    },
+    "orderData": {
+        "allowPrintInvoice": true,
+        "biMigrated": 0,
+        "boxOfficer": true,
+        "channelEntityId": 53,
+        "channelId": 125,
+        "channelType": "BOXOFFICE",
+        "crmMigrated": null,
+        "deliveryMethod": "TAQ_PICKUP",
+        "insuranceId": null,
+        "insuranceName": null,
+        "insurancePolicyNumber": null,
+        "language": "es_ES",
+        "note": null,
+        "paymentReference": null,
+        "pointOfSaleId": null,
+        "profileAttributes": [],
+        "profileId": null,
+        "solrMigrated": "OK",
+        "suspectFraud": null,
+        "terminalId": 18,
+        "userId": 65
+    },
+    "paymentReference": null,
+    "payments": [
+        {
+            "cardBinCode": null,
+            "cardNumber": null,
+            "cardSign": null,
+            "cardType": null,
+            "id": 1932,
+            "isAdvance": null,
+            "paymentDate": "2016-01-19T16:18:28.846Z[UTC]",
+            "paymentExtraCode": null,
+            "paymentReference": null,
+            "paymentType": "CASH",
+            "transferDate": null,
+            "userId": 65,
+            "userName": null,
+            "value": 0
+        }
+    ],
+    "previousStatus": {
+        "state": "PRE_ORDER",
+        "type": "BOOKING"
+    },
+    "price": {
+        "basePrice": 0,
+        "charges": {
+            "channel": 0,
+            "promoter": 0,
+            "promoterChannel": null
+        },
+        "currency": "EUR",
+        "delivery": 0,
+        "finalPrice": 0,
+        "insurance": 0,
+        "promotions": {
+            "automatic": 0,
+            "discount": 0,
+            "promotion": 0
+        }
+    },
+    "products": [
+        {
+            "allowedOperations": {
+                "booking": true,
+                "issue": true,
+                "purchase": true
+            },
+            "blockedDate": "2016-01-19T16:17:32.889Z[UTC]",
+            "entityId": 53,
+            "eventActivity": true,
+            "eventEntityId": 53,
+            "eventId": 123,
+            "externalToken": null,
+            "groupId": 444,
+            "id": 894,
+            "price": {
+                "basePrice": 50,
+                "charges": {
+                    "channel": 2,
+                    "promoter": 0,
+                    "promoterChannel": 0
+                },
+                "currency": null,
+                "delivery": 0,
+                "finalPrice": 52,
+                "insurance": null,
+                "promotions": {
+                    "automatic": null,
+                    "discount": null,
+                    "promotion": null
+                }
+            },
+            "promotions": {
+                "automatic": null,
+                "discount": null,
+                "discountValidatorCode": null,
+                "promotion": null,
+                "promotionValidatorCode": null
+            },
+            "relatedBookingCode": "1215MEXSM3VK",
+            "relatedProductState": "SOLD",
+            "relatedRefundCode": null,
+            "sessionFinalDate": true,
+            "sessionId": 1286,
+            "shardId": 1,
+            "ticketData": {
+                "accessId": null,
+                "accessName": null,
+                "accessibility": null,
+                "barcode": "2162d961c46d60c9018d3cd9fa8d1299",
+                "externalAccess": null,
+                "externalBarcode": null,
+                "externalEntrance": null,
+                "externalGate": null,
+                "externalZone": null,
+                "notNumberedAreaId": 585,
+                "notNumberedAreaName": null,
+                "numSeat": null,
+                "priceZoneId": 585,
+                "prizeZoneName": "Entrada General",
+                "quotaId": 306,
+                "rowBlock": null,
+                "rowId": null,
+                "rowName": null,
+                "rowOrder": null,
+                "seatType": "NOT_NUMBERED",
+                "sectorId": null,
+                "sectorName": null,
+                "ticketType": "GENERAL",
+                "viewId": null,
+                "visibility": null
+            },
+            "type": "GROUP"
+        },
+        {
+            "allowedOperations": {
+                "booking": true,
+                "issue": true,
+                "purchase": true
+            },
+            "blockedDate": "2016-01-19T16:17:50.97Z[UTC]",
+            "entityId": 53,
+            "eventActivity": true,
+            "eventEntityId": 53,
+            "eventId": 123,
+            "externalToken": null,
+            "groupId": 445,
+            "id": 895,
+            "price": {
+                "basePrice": 50,
+                "charges": {
+                    "channel": 2,
+                    "promoter": 0,
+                    "promoterChannel": 0
+                },
+                "currency": null,
+                "delivery": 0,
+                "finalPrice": 52,
+                "insurance": null,
+                "promotions": {
+                    "automatic": null,
+                    "discount": null,
+                    "promotion": null
+                }
+            },
+            "promotions": {
+                "automatic": null,
+                "discount": null,
+                "discountValidatorCode": null,
+                "promotion": null,
+                "promotionValidatorCode": null
+            },
+            "relatedBookingCode": "1215MEXSM3VK",
+            "relatedProductState": "SOLD",
+            "relatedRefundCode": null,
+            "sessionFinalDate": true,
+            "sessionId": 1286,
+            "shardId": 1,
+            "ticketData": {
+                "accessId": null,
+                "accessName": null,
+                "accessibility": null,
+                "barcode": "ee2597eed36074c2e8e653d87fb400fb",
+                "externalAccess": null,
+                "externalBarcode": null,
+                "externalEntrance": null,
+                "externalGate": null,
+                "externalZone": null,
+                "notNumberedAreaId": 585,
+                "notNumberedAreaName": null,
+                "numSeat": null,
+                "priceZoneId": 585,
+                "prizeZoneName": "Entrada General",
+                "quotaId": 306,
+                "rowBlock": null,
+                "rowId": null,
+                "rowName": null,
+                "rowOrder": null,
+                "seatType": "NOT_NUMBERED",
+                "sectorId": null,
+                "sectorName": null,
+                "ticketType": "GENERAL",
+                "viewId": null,
+                "visibility": null
+            },
+            "type": "GROUP"
+        },
+        {
+            "allowedOperations": {
+                "booking": true,
+                "issue": true,
+                "purchase": true
+            },
+            "blockedDate": "2016-01-19T16:18:05.25Z[UTC]",
+            "entityId": 53,
+            "eventActivity": true,
+            "eventEntityId": 53,
+            "eventId": 123,
+            "externalToken": null,
+            "groupId": 444,
+            "id": 896,
+            "price": {
+                "basePrice": 70,
+                "charges": {
+                    "channel": 2,
+                    "promoter": 0,
+                    "promoterChannel": 0
+                },
+                "currency": null,
+                "delivery": 0,
+                "finalPrice": 72,
+                "insurance": null,
+                "promotions": {
+                    "automatic": null,
+                    "discount": null,
+                    "promotion": null
+                }
+            },
+            "promotions": {
+                "automatic": null,
+                "discount": null,
+                "discountValidatorCode": null,
+                "promotion": null,
+                "promotionValidatorCode": null
+            },
+            "relatedBookingCode": "1215MEXSM3VK",
+            "relatedProductState": "SOLD",
+            "relatedRefundCode": null,
+            "sessionFinalDate": true,
+            "sessionId": 1348,
+            "shardId": 1,
+            "ticketData": {
+                "accessId": null,
+                "accessName": null,
+                "accessibility": null,
+                "barcode": "060d5a33a05be9fe63ef3afa079b066f",
+                "externalAccess": null,
+                "externalBarcode": null,
+                "externalEntrance": null,
+                "externalGate": null,
+                "externalZone": null,
+                "notNumberedAreaId": 586,
+                "notNumberedAreaName": null,
+                "numSeat": null,
+                "priceZoneId": 586,
+                "prizeZoneName": "Entrada General",
+                "quotaId": 307,
+                "rowBlock": null,
+                "rowId": null,
+                "rowName": null,
+                "rowOrder": null,
+                "seatType": "NOT_NUMBERED",
+                "sectorId": null,
+                "sectorName": null,
+                "ticketType": "GENERAL",
+                "viewId": null,
+                "visibility": null
+            },
+            "type": "GROUP"
+        },
+        {
+            "allowedOperations": {
+                "booking": true,
+                "issue": true,
+                "purchase": true
+            },
+            "blockedDate": "2016-01-19T16:18:08.659Z[UTC]",
+            "entityId": 53,
+            "eventActivity": true,
+            "eventEntityId": 53,
+            "eventId": 123,
+            "externalToken": null,
+            "groupId": 445,
+            "id": 897,
+            "price": {
+                "basePrice": 70,
+                "charges": {
+                    "channel": 2,
+                    "promoter": 0,
+                    "promoterChannel": 0
+                },
+                "currency": null,
+                "delivery": 0,
+                "finalPrice": 72,
+                "insurance": null,
+                "promotions": {
+                    "automatic": null,
+                    "discount": null,
+                    "promotion": null
+                }
+            },
+            "promotions": {
+                "automatic": null,
+                "discount": null,
+                "discountValidatorCode": null,
+                "promotion": null,
+                "promotionValidatorCode": null
+            },
+            "relatedBookingCode": null,
+            "relatedProductState": "REFUNDED",
+            "relatedRefundCode": "457813C0HVRJ",
+            "sessionFinalDate": true,
+            "sessionId": 1348,
+            "shardId": 1,
+            "ticketData": {
+                "accessId": null,
+                "accessName": null,
+                "accessibility": null,
+                "barcode": "1d4eaf6ebe1955996c91c30108ccd426",
+                "externalAccess": null,
+                "externalBarcode": null,
+                "externalEntrance": null,
+                "externalGate": null,
+                "externalZone": null,
+                "notNumberedAreaId": 586,
+                "notNumberedAreaName": null,
+                "numSeat": null,
+                "priceZoneId": 586,
+                "prizeZoneName": "Entrada General",
+                "quotaId": 307,
+                "rowBlock": null,
+                "rowId": null,
+                "rowName": null,
+                "rowOrder": null,
+                "seatType": "NOT_NUMBERED",
+                "sectorId": null,
+                "sectorName": null,
+                "ticketType": "GENERAL",
+                "viewId": null,
+                "visibility": null
+            },
+            "type": "GROUP"
+        },
+        {
+            "allowedOperations": {
+                "booking": true,
+                "issue": true,
+                "purchase": true
+            },
+            "blockedDate": "2016-01-19T16:18:14.602Z[UTC]",
+            "entityId": 53,
+            "eventActivity": true,
+            "eventEntityId": 53,
+            "eventId": 123,
+            "externalToken": null,
+            "groupId": null,
+            "id": 49100999,
+            "price": {
+                "basePrice": 0,
+                "charges": {
+                    "channel": 0,
+                    "promoter": 1,
+                    "promoterChannel": 0
+                },
+                "currency": null,
+                "delivery": 0,
+                "finalPrice": 1,
+                "insurance": 0,
+                "promotions": {
+                    "automatic": 0,
+                    "discount": 0,
+                    "promotion": 0
+                }
+            },
+            "promotions": {
+                "automatic": null,
+                "discount": null,
+                "discountValidatorCode": null,
+                "promotion": null,
+                "promotionValidatorCode": null
+            },
+            "relatedBookingCode": "1215MEXSM3VK",
+            "relatedProductState": "SOLD",
+            "relatedRefundCode": null,
+            "sessionFinalDate": true,
+            "sessionId": 1348,
+            "shardId": 1,
+            "ticketData": {
+                "accessId": null,
+                "accessName": null,
+                "accessibility": null,
+                "barcode": "21d47a6501785fe880c3dca577207571",
+                "externalAccess": null,
+                "externalBarcode": null,
+                "externalEntrance": null,
+                "externalGate": null,
+                "externalZone": null,
+                "notNumberedAreaId": 586,
+                "notNumberedAreaName": null,
+                "numSeat": null,
+                "priceZoneId": 586,
+                "prizeZoneName": "Entrada General",
+                "quotaId": 307,
+                "rowBlock": null,
+                "rowId": null,
+                "rowName": null,
+                "rowOrder": null,
+                "seatType": "NOT_NUMBERED",
+                "sectorId": null,
+                "sectorName": null,
+                "ticketType": "INVITATION",
+                "viewId": null,
+                "visibility": null
+            },
+            "type": "SEAT"
+        },
+        {
+            "allowedOperations": {
+                "booking": true,
+                "issue": true,
+                "purchase": true
+            },
+            "blockedDate": "2016-01-19T16:18:14.602Z[UTC]",
+            "entityId": 53,
+            "eventActivity": true,
+            "eventEntityId": 53,
+            "eventId": 123,
+            "externalToken": null,
+            "groupId": null,
+            "id": 49101000,
+            "price": {
+                "basePrice": 12,
+                "charges": {
+                    "channel": 2,
+                    "promoter": 0,
+                    "promoterChannel": 0
+                },
+                "currency": null,
+                "delivery": 0,
+                "finalPrice": 14,
+                "insurance": null,
+                "promotions": {
+                    "automatic": null,
+                    "discount": null,
+                    "promotion": null
+                }
+            },
+            "promotions": {
+                "automatic": null,
+                "discount": null,
+                "discountValidatorCode": null,
+                "promotion": null,
+                "promotionValidatorCode": null
+            },
+            "relatedBookingCode": "1215MEXSM3VK",
+            "relatedProductState": "SOLD",
+            "relatedRefundCode": null,
+            "sessionFinalDate": true,
+            "sessionId": 1348,
+            "shardId": 1,
+            "ticketData": {
+                "accessId": null,
+                "accessName": null,
+                "accessibility": null,
+                "barcode": "23754785b002aafda2fb1720b8856114",
+                "externalAccess": null,
+                "externalBarcode": null,
+                "externalEntrance": null,
+                "externalGate": null,
+                "externalZone": null,
+                "notNumberedAreaId": 586,
+                "notNumberedAreaName": null,
+                "numSeat": null,
+                "priceZoneId": 586,
+                "prizeZoneName": "Entrada General",
+                "quotaId": 307,
+                "rowBlock": null,
+                "rowId": null,
+                "rowName": null,
+                "rowOrder": null,
+                "seatType": "NOT_NUMBERED",
+                "sectorId": null,
+                "sectorName": null,
+                "ticketType": "GENERAL",
+                "viewId": null,
+                "visibility": null
+            },
+            "type": "SEAT"
+        }
+    ],
+    "relatedModicationCode": null,
+    "relatedOriginalCode": null,
+    "solrMigrated": "OK",
+    "status": {
+        "state": "PAID",
+        "type": "BOOKING"
+    },
+    "token": "85170bebf7483a90764d14cf6027e242"
+}
